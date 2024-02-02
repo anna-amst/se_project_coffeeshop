@@ -1,6 +1,19 @@
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.3);
+    opacity: 0;
+  }
+}
+
 .about {
   background-color: #0a2850;
-  padding: 119px 80px 173px;
+  padding: 100px 80px 173px;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -9,8 +22,8 @@
 
 .about__title {
   color: #fff;
-  margin: -19px 0 0;
-  font-family: "Inter";
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -21,13 +34,14 @@
 
 .about__content {
   max-width: 660px;
+  margin-top: 19px;
 }
 
 .about__paragraph {
   color: #fff;
   margin: 0 0 20px;
   padding: 0;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", 'Times New Roman', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

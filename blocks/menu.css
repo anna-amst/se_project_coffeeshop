@@ -35,8 +35,3 @@
   justify-content: center;
   flex-flow: row wrap;
 }
-
-.menu__card {
-  width: 540px;
-  list-style-type: none;
-}

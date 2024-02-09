@@ -9,12 +9,6 @@ Triple Peaks Coffee Shop is a web project developed as part of the Software Engi
 - Flat BEM File Structure: Organized the CSS files following the Block Element Modifier (BEM) methodology to maintain scalability and code readability
 - Custom Form: Designed and implemented a custom form tailored to the specific requirements of the project
 
-* A custom form designed for seamless user interaction and data collection
-![a pictire of a form] (images/demo/form.png)
-
-* Embedded content
-! [a picture of the implementation of embedded videos] (images/demo/recipes.png)
-
 ## Plan on improving the project
 
 - Responsive design: Ensure the website is fully responsive across various devices and screen sizes to enhance user experience.
